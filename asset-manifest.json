@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.dcaacd6d.css",
-    "main.js": "/static/js/main.a473b831.js",
+    "main.js": "/static/js/main.b523ee32.js",
     "static/media/DiamondLand.png": "/static/media/DiamondLand.49f40b8886e13f02422e.png",
     "static/media/HealHub.png": "/static/media/HealHub.7e5710ff759a1cecef8e.png",
     "static/media/FlowerBazar.png": "/static/media/FlowerBazar.fbf6b3c237bacc9222a7.png",
-    "static/media/resume.pdf": "/static/media/resume.a1afe9b9ac3d0a4a2721.pdf",
+    "static/media/Rahul-Chaudhari-Resume.pdf": "/static/media/Rahul-Chaudhari-Resume.4ffa98b2ac67d1ff9c1f.pdf",
     "static/media/rahul.png": "/static/media/rahul.8da9c5a7e0eb97478feb.png",
     "static/media/redis.png": "/static/media/redis.14e4d6e83fa449c04f51.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -22,10 +22,10 @@
     "static/media/aws.png": "/static/media/aws.909d461eee65ee03c978.png",
     "index.html": "/index.html",
     "main.dcaacd6d.css.map": "/static/css/main.dcaacd6d.css.map",
-    "main.a473b831.js.map": "/static/js/main.a473b831.js.map"
+    "main.b523ee32.js.map": "/static/js/main.b523ee32.js.map"
   },
   "entrypoints": [
     "static/css/main.dcaacd6d.css",
-    "static/js/main.a473b831.js"
+    "static/js/main.b523ee32.js"
   ]
 }
