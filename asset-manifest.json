@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.dcaacd6d.css",
-    "main.js": "/static/js/main.27369cb0.js",
+    "main.js": "/static/js/main.b98a9e37.js",
     "static/media/DiamondLand.png": "/static/media/DiamondLand.49f40b8886e13f02422e.png",
     "static/media/HealHub.png": "/static/media/HealHub.7e5710ff759a1cecef8e.png",
     "static/media/FlowerBazar.png": "/static/media/FlowerBazar.fbf6b3c237bacc9222a7.png",
     "static/media/Rahul-Chaudhari-Resume.pdf": "/static/media/Rahul-Chaudhari-Resume.4ffa98b2ac67d1ff9c1f.pdf",
     "static/media/rahul.png": "/static/media/rahul.8da9c5a7e0eb97478feb.png",
+    "static/media/ChatVista.png": "/static/media/ChatVista.26f27bede0a3002ef129.png",
     "static/media/redis.png": "/static/media/redis.14e4d6e83fa449c04f51.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/fend.png": "/static/media/fend.e90635873048513d7a81.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/TicTacToe.png": "/static/media/TicTacToe.26d703913550f194534b.png",
     "static/media/bend.jpg": "/static/media/bend.1bd26017697806af5522.jpg",
     "static/media/dsaa.png": "/static/media/dsaa.e65fc65659817c4d0ec2.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
@@ -22,10 +24,10 @@
     "static/media/aws.png": "/static/media/aws.909d461eee65ee03c978.png",
     "index.html": "/index.html",
     "main.dcaacd6d.css.map": "/static/css/main.dcaacd6d.css.map",
-    "main.27369cb0.js.map": "/static/js/main.27369cb0.js.map"
+    "main.b98a9e37.js.map": "/static/js/main.b98a9e37.js.map"
   },
   "entrypoints": [
     "static/css/main.dcaacd6d.css",
-    "static/js/main.27369cb0.js"
+    "static/js/main.b98a9e37.js"
   ]
 }
