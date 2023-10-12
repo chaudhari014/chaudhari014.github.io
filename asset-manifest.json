@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcaacd6d.css",
-    "main.js": "/static/js/main.c75dd705.js",
+    "main.css": "/static/css/main.2a3ca58a.css",
+    "main.js": "/static/js/main.b910dc22.js",
     "static/media/DiamondLand.png": "/static/media/DiamondLand.49f40b8886e13f02422e.png",
     "static/media/HealHub.png": "/static/media/HealHub.7e5710ff759a1cecef8e.png",
     "static/media/FlowerBazar.png": "/static/media/FlowerBazar.fbf6b3c237bacc9222a7.png",
@@ -23,11 +23,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/aws.png": "/static/media/aws.909d461eee65ee03c978.png",
     "index.html": "/index.html",
-    "main.dcaacd6d.css.map": "/static/css/main.dcaacd6d.css.map",
-    "main.c75dd705.js.map": "/static/js/main.c75dd705.js.map"
+    "main.2a3ca58a.css.map": "/static/css/main.2a3ca58a.css.map",
+    "main.b910dc22.js.map": "/static/js/main.b910dc22.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcaacd6d.css",
-    "static/js/main.c75dd705.js"
+    "static/css/main.2a3ca58a.css",
+    "static/js/main.b910dc22.js"
   ]
 }
