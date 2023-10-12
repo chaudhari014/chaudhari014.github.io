@@ -5,11 +5,10 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Workskills from "./components/Workskills";
 import { Calender } from "./components/Calender";
-
 
 function App() {
   return (

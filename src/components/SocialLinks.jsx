@@ -2,8 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
-import { BsFillPersonLinesFill,BsTelephoneOutbound } from "react-icons/bs";
-import resume from "../assets/resume.pdf"
+import { BsFillPersonLinesFill, BsTelephoneOutbound } from "react-icons/bs";
+import resume from "../assets/Rahul-Chaudhari-Resume.pdf";
 const SocialLinks = () => {
   const links = [
     {
@@ -15,6 +15,7 @@ const SocialLinks = () => {
       ),
       href: "https://www.linkedin.com/in/rahul-chaudhari-52718a273/",
       style: "rounded-tr-md",
+      nameId: "contact-linkedin",
     },
     {
       id: 2,
@@ -24,6 +25,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/chaudhari014",
+      nameId: "contact-github",
     },
     {
       id: 3,
@@ -33,6 +35,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "rahulchaudhari7856@gmail.com",
+      nameId: "contact-email",
     },
     {
       id: 4,
@@ -43,23 +46,34 @@ const SocialLinks = () => {
       ),
       href: resume,
       download: true,
+      nameId: "resume-link-2",
     },
     {
       id: 5,
       child: (
-        <> +91 83202 64138<BsTelephoneOutbound size={28} />
+        <>
+          {" "}
+          +91 83202 64138
+          <BsTelephoneOutbound size={28} />
         </>
       ),
-      href:'tel:8320264138',
-    
-    }
-   
+      href: "tel:8320264138",
+      nameId: "contact-phone",
+    },
   ];
-
+  function downloadAndOpenResume(event) {
+    event.preventDefault();
+    const resumeURL = event.target.href;
+    const a = document.createElement("a");
+    a.href = resumeURL;
+    a.download = "Rahul-Chaudhari-Resume";
+    a.click();
+    window.open(resumeURL, "_blank");
+  }
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style, download, nameId }) => (
           <li
             key={id}
             className={
@@ -71,9 +85,10 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
               target="_blank"
+              onClick={download ? (e) => downloadAndOpenResume(e) : () => {}}
               rel="noreferrer"
+              id={nameId}
             >
               {child}
             </a>

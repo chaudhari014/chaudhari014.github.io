@@ -133,10 +133,10 @@ const Skills = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style} skills-card`}
             >
-               <Fade top duration={1000} distance="40px">   <img src={src} alt="" className="w-20 mx-auto" />
-                <p className="mt-4">{title}</p>
+               <Fade top duration={1000} distance="40px">   <img src={src} alt="" className="w-20 mx-auto skills-card-img" />
+                <p className="mt-4 skills-card-name">{title}</p>
                 </Fade>
             </div>
           ))}

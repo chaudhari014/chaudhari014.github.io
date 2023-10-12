@@ -28,7 +28,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col justify-center h-full  w-2/3">
           <h2 className="text-4xl text-white font-bold">Hello,  my name is</h2>
-          <h2 className="text-4xl sm:text-7xl font-bold text-white mt-4 ">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white mt-4 " id="user-detail-name">
            Rahul Chaudhari
           </h2>
           <h2 className="text-4xl sm:text-5xl font-bold text-white mt-3">
@@ -55,7 +55,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="profile"
-            className="rounded-full mx-auto  w-2/3 md:w-4/5  text-end "
+            className="rounded-full mx-auto  w-2/3 md:w-4/5  text-end home-img"
           />
         </div>
         
