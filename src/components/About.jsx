@@ -35,17 +35,19 @@ const About = () => {
           </Fade>
           <Fade top duration={1000} distance="40px">
             <p className="text-xl" id="user-detail-intro">
-              I'm a passionate Developer with strong administrative and
-              communication skills, good attention to detail and the ability to
-              write efficient code.
+              I'm a new developer excited about building things on the web. I
+              know how to create websites using React, Angular, JavaScript,
+              TypeScript, CSS, HTML, and other tools. I'm also familiar with
+              Chakra UI, which helps make websites look good
               <br /> <br />
-              As I grow and flourish as a Developer, one thing which keeps me
-              going is my inquisitiveness for discovering new things every day.
+              Even though I'm just starting out, I'm keen on learning and have
+              some knowledge about cool stuff like Generative AI. I want to work
+              on interesting projects that challenge me and help me grow as a
+              developer.
               <br /> <br />
-              Fast Forwarding to today,I built a number of web applications and
-              3 major projects. Learned a great deal about teamwork, leadership
-              and communication. After months of rigorous training, here I am
-              looking for an opportunity as a full stack web developer.
+              I'm looking for a chance to join a company where I can learn from
+              experienced folks, work on exciting projects, and bring my energy
+              and fresh ideas to the team.
             </p>
             <div className="flex items-center mt-4">
               <a

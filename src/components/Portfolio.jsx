@@ -9,6 +9,9 @@ import flower from "../assets/portfolio/FlowerBazar.png";
 import diamond from "../assets/portfolio/DiamondLand.png";
 import healhub from "../assets/portfolio/HealHub.png";
 import TicTacToe from "../assets/portfolio/TicTacToe.png";
+import WeatherApp from "../assets/portfolio/Weatherapp.png";
+import CounterApp from "../assets/portfolio/CounterApp.png";
+import GenAI from "../assets/portfolio/GenAI.png";
 import { Fade } from "react-reveal";
 import ChatVista from "../assets/portfolio/ChatVista.png";
 import { FaEye, FaGithub } from "react-icons/fa";
@@ -41,7 +44,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: healhub,
-      link: "https://healhub-becausewecare.netlify.app/",
+      link: "https://heal-hub.vercel.app/",
       repo: "https://github.com/chaudhari014/handy-string-7765",
       text: "Pactro site clone",
       skills: "Javascript,React,CSS,mongoDB,nodejs,NPM Packages,socket.io",
@@ -77,6 +80,36 @@ const Portfolio = () => {
       skills: "React,Javascript,CSS",
       desc: `Tic-Tac-Toe is a classic game brought to life in a digital format, offering an entertaining and nostalgic gaming experience. Built using React, JavaScript, and CSS, this project showcases my proficiency in front-end web development.`,
       title: "Tic-Tac-Toe",
+    },
+    {
+      id: 8,
+      src: WeatherApp,
+      link: "https://angular-weatherapp-ten.vercel.app/",
+      repo: "https://github.com/chaudhari014/angular-weatherapp",
+      text: "Weather-App",
+      skills: "angular,typescript,CSS,wheatherAPI",
+      desc: `WeatherApp is a simple Angular project that provides real-time weather information. Using TypeScript and CSS, it's designed to be user-friendly and responsive.`,
+      title: "WeatherApp",
+    },
+    {
+      id: 9,
+      src: GenAI,
+      link: "https://chat-boat-chatgpt.vercel.app/",
+      repo: "https://github.com/chaudhari014/chat-Boat-chatgpt",
+      text: "Advance-AI content generation",
+      skills: "react,javascript,CSS,openAIAPI",
+      desc: `GenAI is an innovative project showcasing advanced AI content generation capabilities. Built with React, JavaScript, and CSS, it harnesses the power of the OpenAI API to generate dynamic and context-aware content. Experience the cutting edge of AI-driven content creation by exploring GenAI`,
+      title: "Advance-AI content generation",
+    },
+    {
+      id: 10,
+      src: CounterApp,
+      link: "https://counter-app-angular-zeta.vercel.app/",
+      repo: "https://github.com/chaudhari014/counter-app-angular",
+      text: "counterApp",
+      skills: "angular,typescript,CSS",
+      desc: `counterApp is a straightforward Angular project that lets you increment and decrement a counter with a satisfying click sound for each action. It's a simple yet enjoyable way to explore basic Angular functionality.`,
+      title: "counterApp",
     },
   ];
 
