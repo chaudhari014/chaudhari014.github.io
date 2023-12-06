@@ -10,6 +10,9 @@
   html {
     font-family: "Raleway", sans-serif;
   }
+  p {
+    font-feature-settings: "lnum"; /* Use "lnum" for lining-nums */
+  }
 }
 
 #root {
@@ -55,39 +58,44 @@ body {
 /* .experience1 {
   margin-top: 12%;
 } */
-.experience1{
+.experience1 {
   padding-top: 100px;
 }
 
 .nav-links {
-  text-underline-offset: 1rem;  
+  text-underline-offset: 1rem;
 }
 
-.contact1{
+.contact1 {
   padding-bottom: 80px;
-  padding-top: -20px; 
+  padding-top: -20px;
 }
-.workskill1{
+.workskill1 {
   padding-top: 50px;
   margin-top: 80px;
   padding-bottom: 40px;
 }
-.calender1{
+.calender1 {
   padding-top: 30px;
 }
 @media screen and (max-width: 900px) {
-
   #root {
-    background: linear-gradient(rgb(31, 41, 55) 20%, black 20%, rgb(31, 41, 55) 65%, black 25%);
+    background: linear-gradient(
+      rgb(31, 41, 55) 20%,
+      black 20%,
+      rgb(31, 41, 55) 65%,
+      black 25%
+    );
     min-height: 100vh;
   }
-
 
   .about1,
   .contact1,
   .portfolio1,
   .experience1,
-  .home1,.calender1,.workskill1{
+  .home1,
+  .calender1,
+  .workskill1 {
     text-align: center;
     height: 100%;
   }
@@ -95,7 +103,7 @@ body {
   .about1,
   .portfolio1,
   .experience1 {
-    margin-top: 10%;  
+    margin-top: 10%;
   }
 
   .home1 img {
@@ -128,5 +136,4 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
 }

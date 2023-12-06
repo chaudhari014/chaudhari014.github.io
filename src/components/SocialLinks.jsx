@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 import { BsFillPersonLinesFill, BsTelephoneOutbound } from "react-icons/bs";
-import resume from "../assets/Rahul-Chaudhari-Resume.pdf";
+import resume from "../assets/Rahul Chaudhari-fp09_108-Full Stack Web Developer.pdf";
 const SocialLinks = () => {
   const links = [
     {
@@ -34,7 +34,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "rahulchaudhari7856@gmail.com",
+      href: "mailto:rahulchaudhari7856@gmail.com",
       nameId: "contact-email",
     },
     {
@@ -53,7 +53,7 @@ const SocialLinks = () => {
       child: (
         <>
           {" "}
-          +91 83202 64138
+          <p>+91 83202 64138</p>
           <BsTelephoneOutbound size={28} />
         </>
       ),
@@ -68,7 +68,10 @@ const SocialLinks = () => {
     a.href = resumeURL;
     a.download = "Rahul-Chaudhari-Resume";
     a.click();
-    window.open(resumeURL, "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1hiaM0QvXdsfv8D7mBnPQDcos_lYaBrso/view?usp=sharing",
+      "_blank"
+    );
   }
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">

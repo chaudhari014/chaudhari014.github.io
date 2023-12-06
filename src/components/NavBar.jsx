@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaEye, FaDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
-import resume from "../assets/Rahul-Chaudhari-Resume.pdf";
+import resume from "../assets/Rahul Chaudhari-fp09_108-Full Stack Web Developer.pdf";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -43,6 +43,10 @@ const NavBar = () => {
     a.href = resume; // Using the resume file imported from assets
     a.download = "Rahul-Chaudhari-Resume.pdf"; // Setting the download file name
     a.click();
+    window.open(
+      "https://drive.google.com/file/d/1hiaM0QvXdsfv8D7mBnPQDcos_lYaBrso/view?usp=sharing",
+      "_blank"
+    );
   }
 
   return (

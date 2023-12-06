@@ -11,6 +11,7 @@ import healhub from "../assets/portfolio/HealHub.png";
 import TicTacToe from "../assets/portfolio/TicTacToe.png";
 import WeatherApp from "../assets/portfolio/Weatherapp.png";
 import CounterApp from "../assets/portfolio/CounterApp.png";
+import CodeFlexor from "../assets/portfolio/CodeFlexor.png";
 import GenAI from "../assets/portfolio/GenAI.png";
 import { Fade } from "react-reveal";
 import ChatVista from "../assets/portfolio/ChatVista.png";
@@ -82,6 +83,17 @@ const Portfolio = () => {
       title: "Tic-Tac-Toe",
     },
     {
+      id: 0,
+      src: CodeFlexor,
+      link: "code-converter-pi.vercel.app/",
+      repo: "https://github.com/chaudhari014/code-converter",
+      text: "CodeFlexor",
+      skills: "React,TypeScript,CSS,ChakraUI,OpenAI",
+      desc: `CodeFlexor is a versatile tool that serves as a code converter, code quality checker, and code debugger. It empowers developers to streamline their coding workflow and enhance code quality effortlessly.`,
+      title: "CodeFlexor",
+    },
+
+    {
       id: 8,
       src: WeatherApp,
       link: "https://angular-weatherapp-ten.vercel.app/",
@@ -144,7 +156,7 @@ const Portfolio = () => {
               <div className="p-4">
                 <p className="text-center text-xl p-2 project-title">{title}</p>
                 <p className="text-sm project-description">{desc}</p>
-                <p className="mt-5 text-sm project-tech-stack">
+                <p className="mt-5 text-sm project-tech-stack overflow-wrap ">
                   Tech Stack : {skills}
                 </p>
               </div>

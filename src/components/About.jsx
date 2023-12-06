@@ -3,7 +3,7 @@ import React from "react";
 import { Fade } from "react-reveal";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import resume from "../assets/Rahul-Chaudhari-Resume.pdf";
+import resume from "../assets/Rahul Chaudhari-fp09_108-Full Stack Web Developer.pdf";
 import { FaDownload } from "react-icons/fa";
 
 function downloadAndOpenResume(event) {
@@ -11,6 +11,10 @@ function downloadAndOpenResume(event) {
   a.href = resume;
   a.download = "Rahul-Chaudhari-Resume.pdf";
   a.click();
+  window.open(
+    "https://drive.google.com/file/d/1hiaM0QvXdsfv8D7mBnPQDcos_lYaBrso/view?usp=sharing",
+    "_blank"
+  );
 }
 
 const About = () => {
