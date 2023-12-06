@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.979705bc.css",
-    "main.js": "/static/js/main.ef1eb261.js",
+    "main.js": "/static/js/main.96337c64.js",
     "static/media/DiamondLand.png": "/static/media/DiamondLand.49f40b8886e13f02422e.png",
     "static/media/HealHub.png": "/static/media/HealHub.7e5710ff759a1cecef8e.png",
     "static/media/FlowerBazar.png": "/static/media/FlowerBazar.fbf6b3c237bacc9222a7.png",
@@ -30,10 +30,10 @@
     "static/media/aws.png": "/static/media/aws.909d461eee65ee03c978.png",
     "index.html": "/index.html",
     "main.979705bc.css.map": "/static/css/main.979705bc.css.map",
-    "main.ef1eb261.js.map": "/static/js/main.ef1eb261.js.map"
+    "main.96337c64.js.map": "/static/js/main.96337c64.js.map"
   },
   "entrypoints": [
     "static/css/main.979705bc.css",
-    "static/js/main.ef1eb261.js"
+    "static/js/main.96337c64.js"
   ]
 }
