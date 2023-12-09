@@ -30,7 +30,9 @@ const Contact = () => {
             <p className="text-lg font-bold mb-2">Contact Information:</p>
             <p>
               <FaEnvelope className="inline-block mr-2" />
-              rahulchaudhari7856@gmail.com
+              <a href="mailto:rahulchaudhari7856@gmail.com">
+                rahulchaudhari7856@gmail.com
+              </a>
             </p>
             <p>
               <FaPhone className="inline-block mr-2" />
