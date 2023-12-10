@@ -18,6 +18,8 @@ function App() {
       <About />
       <Portfolio />
       <Skills />
+      <br/>
+      <br/>
       <Workskills />
       <Calender />
       <Contact />
