@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.979705bc.css",
-    "main.js": "/static/js/main.96337c64.js",
+    "main.js": "/static/js/main.4188f94f.js",
     "static/media/DiamondLand.png": "/static/media/DiamondLand.49f40b8886e13f02422e.png",
     "static/media/HealHub.png": "/static/media/HealHub.7e5710ff759a1cecef8e.png",
     "static/media/FlowerBazar.png": "/static/media/FlowerBazar.fbf6b3c237bacc9222a7.png",
     "static/media/rahul.png": "/static/media/rahul.8da9c5a7e0eb97478feb.png",
-    "static/media/Rahul Chaudhari-fp09_108-Full Stack Web Developer.pdf": "/static/media/Rahul Chaudhari-fp09_108-Full Stack Web Developer.226382d6028f33d62938.pdf",
+    "static/media/Rahul Chaudhari-fp09_108-Full Stack Web Developer.pdf": "/static/media/Rahul Chaudhari-fp09_108-Full Stack Web Developer.60c814c3e34348bfc9da.pdf",
     "static/media/promptengineering.jpg": "/static/media/promptengineering.eb172d82b14a1516d1c2.jpg",
     "static/media/angular.png": "/static/media/angular.17ca640487494f28400f.png",
     "static/media/ChatVista.png": "/static/media/ChatVista.26f27bede0a3002ef129.png",
@@ -30,10 +30,10 @@
     "static/media/aws.png": "/static/media/aws.909d461eee65ee03c978.png",
     "index.html": "/index.html",
     "main.979705bc.css.map": "/static/css/main.979705bc.css.map",
-    "main.96337c64.js.map": "/static/js/main.96337c64.js.map"
+    "main.4188f94f.js.map": "/static/js/main.4188f94f.js.map"
   },
   "entrypoints": [
     "static/css/main.979705bc.css",
-    "static/js/main.96337c64.js"
+    "static/js/main.4188f94f.js"
   ]
 }
