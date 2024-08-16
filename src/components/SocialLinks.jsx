@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 import { BsFillPersonLinesFill, BsTelephoneOutbound } from "react-icons/bs";
-import resume from "../assets/Rahul Chaudhari-fp09_108-Full Stack Web Developer.pdf";
+import resume from "../assets/Rahul-Chaudhari-Resume.pdf";
 const SocialLinks = () => {
   const links = [
     {
@@ -69,7 +69,7 @@ const SocialLinks = () => {
     a.download = "Rahul-Chaudhari-Resume";
     a.click();
     window.open(
-      "https://drive.google.com/file/d/1hiaM0QvXdsfv8D7mBnPQDcos_lYaBrso/view?usp=sharing",
+      "https://drive.google.com/file/d/16II4ygdZSfmQlOXVziSXBbz0S06G08EX/view?usp=sharing",
       "_blank"
     );
   }

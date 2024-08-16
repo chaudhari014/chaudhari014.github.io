@@ -19,7 +19,8 @@ const Workskills = () => {
       src: backend,
       title: "Backend Development",
       style: "shadow-red-500",
-    },  {
+    },
+    {
       id: 5,
       src: frontend,
       title: "Frontend Development",
@@ -53,7 +54,7 @@ const Workskills = () => {
           
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-2 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

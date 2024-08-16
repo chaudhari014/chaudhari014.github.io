@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 
 //function for form reset
 function handleSubmit(e) {
@@ -22,7 +22,7 @@ const Contact = () => {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Contact
             </p>
-            <p className="py-6">Take A Cofee And Chat With Me</p>
+            <p className="py-6">Take A Coffee And Chat With Me</p>
           </div>
 
           {/* Contact Information Section */}
@@ -38,6 +38,18 @@ const Contact = () => {
               <FaPhone className="inline-block mr-2" />
               +91 8320264138
             </p>
+            <p>
+        <FaLinkedin className="inline-block mr-2" />
+        <a href="https://www.linkedin.com/in/rahul-chaudhari-52718a273/" target="_blank">
+          LinkedIn
+        </a>
+      </p>
+      <p>
+        <FaGithub className="inline-block mr-2" />
+        <a href="https://github.com/chaudhari014" target="_blank">
+          GitHub
+        </a>
+      </p>
           </div>
 
           <div className=" flex justify-center items-center">
@@ -72,7 +84,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2 my-4 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2  my-4 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
               >
                 Send Message
               </button>
